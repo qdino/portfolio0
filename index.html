@@ -20,16 +20,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon-32x32.png" />
 
   <!-- Put your site title here -->
   <title>
-    Syed Ali Hussnain | A Web Developer based in Lahore, Pakistan.
+    Portfolio
   </title>
 
-  <meta name="description" content="Add small description of yourslef.">
+  <meta name="description" content="Sriram's Pro-tfolio">
   <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
-  <meta name="keywords" content="Put your name, skills and some coding keywords" />
+  <meta name="keywords" content="sriram portfolio software engineering assignment" />
   <link rel="stylesheet" href="index.css" />
 </head>
 
@@ -41,8 +41,8 @@
     <div class="row">
       <nav class="nav" role="navigation">
         <ul class="nav__items">
-          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-          <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li>
+          <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+          <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
           <li class="nav__item">
             <a href="#about" class="nav__link">About</a>
           </li>
@@ -56,10 +56,10 @@
       <div class="header__text">
         <h1 class="heading-primary">
           <!-- Replace the following name with your name -->
-          <span>Syed Ali Hussnain</span>
+          <span>Sriram Munagala</span>
         </h1>
         <!-- Put a small paragraph about yourself -->
-        <p>A Web Developer based in Lahore, Pakistan.</p>
+        <p>Software Engineer from IIIT-Bangalore</p>
         <a href="#contact" class="btn btn--pink">Get in touch</a>
       </div>
     </div>
@@ -69,93 +69,87 @@
 
     <!-- ***** Work ***** -->
 
-    <section class="work" id="work">
+    <section class="projects" id="projects">
       <div class="row">
-        <h2>My Work</h2>
+        <h2>Projects</h2>
         <div class="work__boxes">
 
           <!-- Each div with the work__box class is a project. -->
 
           <div class="work__box">
             <div class="work__text">
-              <h3>Portfolio Template</h3>
+              <h3>Cloodle</h3>
               <p>
-                A free Open Source Portfolio for anyone to use for free.
+                A Moodle command-line tool for students that streamlines assignment retrieval and submissions.
+              </p>
+              <ul class="work__list">
+                <li>Python</li>
+                <li>Shell</li>
+                <li>Curl</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/sriramun/cloodle" target="_blank" class="link__text">
+                  Visit Repo <span>&rarr;</span>
+                </a>
+                <!-- <a href="https://github.com/nisarhassan12/portfolio" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a> -->
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/cloodle_img.jpg" class="work__image" alt="Project 1" width="500"/>
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Ray Tracer</h3>
+              <p>
+                Naive Ray Tracer implementation
               </p>
               <ul class="work__list">
                 <li>HTML</li>
-                <li>SCSS</li>
                 <li>JavaScript</li>
-                <li>Parcel</li>
               </ul>
 
               <div class="work__links">
-                <a href="https://nisar.surge.sh" target="_blank" class="link__text">
-                  Visit Site <span>&rarr;</span>
+                <a href="https://github.com/sriramun/Canvas-Competition" class="link__text">
+                  Visit Repo <span>&rarr;</span>
                 </a>
-                <a href="https://github.com/nisarhassan12/portfolio" title="View Source Code" target="_blank">
-                  <img src="./images/github.svg" class="work__code" alt="GitHub">
-                </a>
+                <!-- <a href="#">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a> -->
               </div>
             </div>
             <div class="work__image-box">
-              <img src="./images/project-1.png" class="work__image" alt="Project 1" />
+              <img src="./images/rayTrace_img.jpg" class="work__image" alt="Project 2" width="500" />
             </div>
-          </div>
+          </div>  
 
           <div class="work__box">
             <div class="work__text">
-              <h3>Calculator</h3>
+              <h3>AICtrl</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                eius.
+                A Computer Vision based Gamepad Emulator
               </p>
               <ul class="work__list">
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Node</li>
-                <li>MongoDB</li>
+                <li>C#</li>
+                <li>DotNet</li>
+                <li>Python</li>
               </ul>
 
               <div class="work__links">
-                <a href="#" class="link__text">
-                  Visit Site <span>&rarr;</span>
+                <a href="https://github.com/sriramun/AICtrl" class="link__text">
+                  Visit Repo <span>&rarr;</span>
                 </a>
-                <a href="#">
+                <!-- <a href="#">
                   <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
-                </a>
+                </a> -->
               </div>
             </div>
             <div class="work__image-box">
-              <img src="./images/project-2.png" class="work__image" alt="Project 1" />
-            </div>
-          </div>
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Notificator</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                eius.
-              </p>
-              <ul class="work__list">
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Node</li>
-                <li>MongoDB</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="#" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="#">
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/project-3.png" class="work__image" alt="Project 3" />
+              <img src="./images/aictrl.jpg" class="work__image" alt="Project 3" width="500" />
             </div>
           </div>
         </div>
@@ -164,9 +158,9 @@
 
     <!-- ***** Clients ***** -->
 
-    <section class="client" id="clients">
+    <section class="skill" id="skills">
       <div class="row">
-        <h2>Clients</h2>
+        <h2>Goals</h2>
         <div class="client__logos">
           <!-- Add logos of the clients or companies you'have worked with. -->
           <img src="./images/ronjones.png" class="client__logo" alt="Company 2" />
