@@ -70,9 +70,11 @@ body {
     font-size: var(--font-size-small);
     font-family: var(--font-stack);
     font-weight: 400;
-    color: var(--white-1);
+    /* color: var(--white-1); */
+    color:  #964B00;
     line-height: var(--line-height-normal);
-    background: var(--black);
+    /* background: var(--black); */
+    background: #add8e6;
     overflow-x: hidden;
 }
 
@@ -125,7 +127,8 @@ h3 {
     font-family: 'Jost', sans-serif;
     font-weight: 400;
     line-height: var(--line-height-small);
-    color: var(--white);
+    /* color: var(--white); */
+    color:#000;
 }
 
 .heading-primary {
@@ -188,7 +191,8 @@ p {
 /* --------------------------------------- */
 
 a {
-    color: var(--white);
+    /* color: var(--white); */
+    color:#964B00;
     font-weight: 400;
     font-family: 'Jost', sans-serif;
     transition: all .2s;
@@ -404,8 +408,14 @@ body:not(.user-is-tabbing) a:focus {
 /* --------------------------------------- */
 
 .header {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
     background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
-        url('./images/header.jpg');
+        /* url('./images/header.jpg'); */
+        url('./images/header1.png');
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -415,8 +425,12 @@ body:not(.user-is-tabbing) a:focus {
 
 .header__text {
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    
+    /* text-align: center; */
+    /* transform: translateY(-50%); */
+    transform: scale(2,1.5);
+
+    background:rgba(76, 175, 80, 0.8);
 }
 
 .header__text p {
