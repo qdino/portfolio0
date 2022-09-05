@@ -342,16 +342,23 @@ body:not(.user-is-tabbing) a:focus {
 .nav {
     display: flex;
     justify-content: flex-end;
+    top: 0%;
+    right: 20%;
     padding: var(--gutter-normal) 0;
 }
 
 .nav__items {
     display: flex;
     list-style: none;
+
+    padding: 10px;
 }
 
 .nav__item:not(:last-child) {
     margin-right: var(--gutter-medium);
+
+    background: #FFC0CB;
+    background-size: 50px;
 }
 
 @media(max-width: 500px) {
@@ -424,9 +431,9 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .header__text {
-    position: absolute;
+    /* position: absolute; */
     
-    /* text-align: center; */
+    text-align: center;
     /* transform: translateY(-50%); */
     transform: scale(2,1.5);
 
